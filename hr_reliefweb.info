@@ -1,0 +1,12 @@
+name = Humanitarianresponse Reliefweb
+description = Allows users to submit documents and visuals to Reliefweb as they are posted
+core = 7.x
+package = Humanitarianresponse
+dependencies[] = custom_pub
+dependencies[] = humanitarianresponse_documents
+dependencies[] = humanitarianresponse_maps
+dependencies[] = rules
+features[custom_pub][] = reliefweb
+features[features_api][] = api:1
+features[rules_config][] = rules_submit_documents_to_reliefweb
+features[rules_config][] = rules_submit_visuals_to_reliefweb
