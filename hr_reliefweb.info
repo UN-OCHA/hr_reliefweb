@@ -10,3 +10,4 @@ features[custom_pub][] = reliefweb
 features[features_api][] = api:1
 features[rules_config][] = rules_submit_documents_to_reliefweb
 features[rules_config][] = rules_submit_visuals_to_reliefweb
+features[user_permission][] = edit_custom_pub_reliefweb
