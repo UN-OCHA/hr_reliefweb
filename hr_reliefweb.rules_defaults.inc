@@ -27,7 +27,7 @@ function hr_reliefweb_default_rules_configuration() {
         { "mail" : {
             "to" : "submit@reliefweb.int",
             "subject" : "[HumanitarianResponse] New document submitted on [site:url]",
-            "message" : "A new document was submitted on [site:url].\\u000D\\u000A\\u000D\\u000AThe document can be seen here: \\u000D\\u000A[node:url]",
+            "message" : "A new document was submitted on [site:url].\\u000D\\u000A\\u000D\\u000AThe document can be seen here: \\u000D\\u000A[node:url]\\u000D\\u000A\\u000D\\u000AThe document metadata are the following:\\u000D\\u000ATitle: [node:title]\\u000D\\u000AType: [node:field-document-type]\\u000D\\u000ACluster(s): [node:field-clusters]\\u000D\\u000ATheme(s): [node:field-themes]",
             "from" : "info@humanitarianresponse.info",
             "language" : [ "" ]
           }
@@ -49,7 +49,7 @@ function hr_reliefweb_default_rules_configuration() {
         { "mail" : {
             "to" : "maps@reliefweb.int",
             "subject" : "[HumanitarianResponse] New visual submitted on [site:url]",
-            "message" : "A new visual was submitted on [site:url].\\u000D\\u000A\\u000D\\u000AYou can see it here:\\u000D\\u000A[node:url]",
+            "message" : "A new visual was submitted on [site:url].\\u000D\\u000A\\u000D\\u000AYou can see it here:\\u000D\\u000A[node:url]\\u000D\\u000A\\u000D\\u000AThe visual metadata are the following:\\u000D\\u000ATitle: [node:title]\\u000D\\u000AType: [node:field-map-type]\\u000D\\u000ACluster(s): [node:field-clusters]\\u000D\\u000ATheme(s): [node:field-themes]",
             "from" : "info@humanitarianresponse.info",
             "language" : [ "" ]
           }
