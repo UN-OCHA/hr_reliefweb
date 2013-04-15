@@ -14,9 +14,9 @@ function hr_reliefweb_user_default_permissions() {
   $permissions['edit_custom_pub_reliefweb'] = array(
     'name' => 'edit_custom_pub_reliefweb',
     'roles' => array(
-      0 => 'administrator',
-      1 => 'editor',
-      2 => 'manager',
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'manager' => 'manager',
     ),
     'module' => 'custom_pub',
   );
